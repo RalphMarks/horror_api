@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
     'rest_framework',
 ]
 
@@ -123,3 +124,5 @@ LOGGING = {
         },
     }
 }
+
+OMDB_BASE_URL = os.getenv('OMDB_BASE_URL')
