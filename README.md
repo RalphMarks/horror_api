@@ -1,6 +1,12 @@
 # Horror API
 This project let you search movie data using omdb api
 
+## Endpoints 
+
+GET /hello - Shows you a little message
+
+GET /movies?search={{search_string}} - Lets you search a movie
+
 ## Development
 
 ### Run with Docker
